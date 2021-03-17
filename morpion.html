@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>morpion</title>
+	<link rel="stylesheet" type="text/css" href="css/morpion.css" media="all">
+
+</head>
+
+<body>
+ 
+<div class="jeu">
+    <table id="center">
+        <tbody>
+        <tr>
+            <td class="carre" id="Zonea1" onclick="jouer('Zonea1');">&nbsp;</td>
+            <td class="carre" id="Zonea2" onclick="jouer('Zonea2');">&nbsp;&nbsp;</td>
+            <td class="carre" id="Zonea3" onclick="jouer('Zonea3');">&nbsp;&nbsp;&nbsp;</td>
+        </tr>
+        <tr>
+            <td class="carre" id="Zoneb1" onclick="jouer('Zoneb1');">&nbsp;&nbsp;&nbsp;&nbsp;</td>
+            <td class="carre" id="Zoneb2" onclick="jouer('Zoneb2');">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+            <td class="carre" id="Zoneb3" onclick="jouer('Zoneb3');">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+        </tr>
+        <tr>
+            <td class="carre" id="Zonec1" onclick="jouer('Zonec1');">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+            <td class="carre" id="Zonec2" onclick="jouer('Zonec2');">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+            <td class="carre" id="Zonec3" onclick="jouer('Zonec3');">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+        </tr>
+        </tbody>
+    </table>
+</div>
+<div id="rejouer">
+    <button type="button" class="bouton" onclick="Initialisation()">Rejouer</button>
+</div>
+
+<script src="js/morpion.js"></script>
+</body>
+</html>
+
